@@ -1,7 +1,7 @@
 <h1>Altumate</h1>
 
 <p>
-  Altumate is a fictional platform concept focused on data analytics and cloud services. This project was created to practice responsive design and front-end development using <strong>React</strong> and <strong>Tailwind CSS</strong>.
+  Altumate is a landing page site for a fictional company specializing in data analytics and cloud services. This project was created to practice responsive design and front-end development using <strong>React</strong> and <strong>Tailwind CSS</strong>.
 </p>
 
 <hr>
