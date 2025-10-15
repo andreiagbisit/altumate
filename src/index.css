@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import 'tailwindcss';
+
+body {
+    background-color: #000300;
+    font-family: 'DM Sans', sans-serif;
+    @apply selection:bg-rose-600 selection:text-white;
+}
+
+@layer components {
+    .logo-area {
+        @apply w-full text-3xl font-bold text-rose-600;
+    }
+    
+    .logo {
+        @apply inline-block hover:scale-105 duration-300;
+    }
+    
+    .nav-a-desktop {
+        @apply hover:scale-120 hover:text-rose-600 duration-300;
+    }
+
+    .nav-li-nth {
+        @apply p-4 border-b border-stone-600;
+    }
+
+    .nav-a-mobile {
+        @apply hover:scale-120 hover:text-rose-600 duration-300;
+    }
+
+    .button1 {
+        @apply bg-rose-600 w-[200px] text-center text-white hover:bg-rose-500 hover:scale-103 duration-300 rounded-md font-medium my-6 py-3;
+    }
+
+    .button2 {
+        @apply bg-black w-[200px] text-center text-white hover:bg-stone-700 hover:scale-103 duration-300 rounded-md font-medium my-6 py-3;
+    }
+
+    .card-area1 {
+        @apply w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300;
+    }
+
+    .card-area2 {
+        @apply w-full shadow-xl bg-stone-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300;
+    }
+
+    .card-img {
+        @apply w-20 mx-auto mt-[-3rem] bg-transparent;
+    }
+
+    .plan-type {
+        @apply text-2xl font-bold text-center py-8;
+    }
+
+    .price {
+        @apply text-center text-4xl font-bold text-rose-600;
+    }
+
+    .per-m {
+        @apply text-center text-xl;
+    }
+
+    .features {
+        @apply text-center font-medium;
+    }
+
+    .plan-p {
+        @apply py-2 border-b border-stone-300 mx-8;
+    }
+
+    .hero-p {
+        @apply md:text-5xl sm:text-4xl text-xl font-bold;
+    }
+
+    .footer-h6 {
+        @apply font-medium text-stone-600;
+    }
+
+    .footer-icon {
+        @apply hover:scale-120 hover:text-rose-600 duration-300;
+    }
+
+    .footer-li {
+        @apply py-2 text-sm;
+    }
+
+    .footer-a {
+        @apply hover:text-rose-600 duration-300;
+    }
+}
